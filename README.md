@@ -1,16 +1,26 @@
-# Supply chain & data auditing
+#Ethereum Dapp for Tracking Items through Supply Chain
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
+# UML Diagrams
+
+## Activity Diagram
+
 The DApp User Interface when running should look like...
 
-![truffle test](images/screencapture-localhost-3000-2021-03-19-16_21_01.png)
+![Acitivity-diagram](images/activity.png)
 
-![truffle test](images/ftc_farm_details.png)
+## Sequence Diagram
 
-![truffle test](images/ftc_product_details.png)
+![Acitivity-diagram](images/sequence.png)
 
-![truffle test](images/ftc_transaction_history.png)
+## State Diagram
+
+![Acitivity-diagram](images/state.png)
+
+## Classs Diagram
+
+![Acitivity-diagram](images/class.png)
 
 ## Getting Started
 
@@ -31,7 +41,7 @@ A step by step series of examples that tell you have to get a development env ru
 Clone this repository:
 
 ```
-git clone https://github.com/udacity/nd1309/tree/master/course-5/project-6
+git clone https://github.com/Akbarkz/supply-chain.git
 ```
 
 Change directory to `project-6` folder and install all requisite npm packages (as listed in `package.json`):
@@ -81,13 +91,40 @@ truffle test
 
 All 10 tests should pass.
 
-![truffle test](images/truffle_test.png)
+![truffle test](images/truffel-test.png)
 
 In a separate terminal window, launch the DApp:
 
 ```
 npm run dev
 ```
+
+#Important Information
+
+##Rinkbey Deployment Details
+
+1. Contract Address : https://rinkeby.etherscan.io/address/0x893D3a7c006C86d48018d968D04dD34Ad7c00Cf2
+   2.Transaction :https://rinkeby.etherscan.io/tx/0x8b4d6a4d979d497c2c599b275502f39e871c8ce49cf4c2e8c2f06d621613a95c
+
+##IPFS
+Deployed frontend on IPFS
+link : https://gateway.pinata.cloud/ipfs/QmQoXfpUbMPC7tPz86WDds6ZgrAWDtTicJ2BvgiUzmwU9m/
+\*\* css is not supported
+
+## Built With
+
+Libraries Used
+
+1.dotenv : For using env variables
+2.truffle-assertions : Easy to test events
+3.truffle-hdwallet-provider : For configuring providers in test networks
+4.husky: Pre commit and pre push hooks
+
+## Dev Tools Version
+
+1. node : 12.13.1
+2. Truffle : 5.1.54
+   3.Web3 : 1.2.1
 
 ## Built With
 
