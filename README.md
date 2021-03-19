@@ -8,19 +8,19 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
 
 The DApp User Interface when running should look like...
 
-![Acitivity-diagram](images/activity.png)
+![Acitivity-diagram](diagrams/activity.png)
 
 ## Sequence Diagram
 
-![Acitivity-diagram](images/sequence.png)
+![Acitivity-diagram](diagrams/sequence.png)
 
 ## State Diagram
 
-![Acitivity-diagram](images/state.png)
+![Acitivity-diagram](diagrams/state.png)
 
 ## Classs Diagram
 
-![Acitivity-diagram](images/class.png)
+![Acitivity-diagram](diagrams/class.png)
 
 ## Getting Started
 
