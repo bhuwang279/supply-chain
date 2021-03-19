@@ -22,6 +22,32 @@ The DApp User Interface when running should look like...
 
 ![Acitivity-diagram](diagrams/class.png)
 
+# Important Information
+
+## Rinkbey Deployment Details
+
+1. Contract Address : https://rinkeby.etherscan.io/address/0x893D3a7c006C86d48018d968D04dD34Ad7c00Cf2
+   2.Transaction :https://rinkeby.etherscan.io/tx/0x8b4d6a4d979d497c2c599b275502f39e871c8ce49cf4c2e8c2f06d621613a95c
+
+## IPFS
+
+Deployed frontend on IPFS
+link : https://gateway.pinata.cloud/ipfs/QmQoXfpUbMPC7tPz86WDds6ZgrAWDtTicJ2BvgiUzmwU9m/
+\*\* css is not supported
+
+## Libraries Used
+
+1.dotenv : For using env variables
+2.truffle-assertions : Easy to test events
+3.truffle-hdwallet-provider : For configuring providers in test networks
+4.husky: Pre commit and pre push hooks
+
+## Dev Tools Version
+
+1. node : 12.13.1
+2. Truffle : 5.1.54
+   3.Web3 : 1.2.1
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -98,33 +124,6 @@ In a separate terminal window, launch the DApp:
 ```
 npm run dev
 ```
-
-#Important Information
-
-##Rinkbey Deployment Details
-
-1. Contract Address : https://rinkeby.etherscan.io/address/0x893D3a7c006C86d48018d968D04dD34Ad7c00Cf2
-   2.Transaction :https://rinkeby.etherscan.io/tx/0x8b4d6a4d979d497c2c599b275502f39e871c8ce49cf4c2e8c2f06d621613a95c
-
-##IPFS
-Deployed frontend on IPFS
-link : https://gateway.pinata.cloud/ipfs/QmQoXfpUbMPC7tPz86WDds6ZgrAWDtTicJ2BvgiUzmwU9m/
-\*\* css is not supported
-
-## Built With
-
-Libraries Used
-
-1.dotenv : For using env variables
-2.truffle-assertions : Easy to test events
-3.truffle-hdwallet-provider : For configuring providers in test networks
-4.husky: Pre commit and pre push hooks
-
-## Dev Tools Version
-
-1. node : 12.13.1
-2. Truffle : 5.1.54
-   3.Web3 : 1.2.1
 
 ## Built With
 
